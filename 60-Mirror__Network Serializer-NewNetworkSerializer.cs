@@ -4,29 +4,29 @@ using UnityEngine;
 using Mirror;
 
 /*
-    Serialization Guide: https://mirror-networking.gitbook.io/docs/guides/serialization
+	Serialization Guide: https://mirror-networking.gitbook.io/docs/guides/serialization
     API Reference:  
             Network Writer: https://mirror-networking.com/docs/api/Mirror.NetworkWriter.html
             Network Reader: https://mirror-networking.com/docs/api/Mirror.NetworkReader.html
 */
 
 
-public struct MamaSerial
+public struct #SCRIPTNAME#
 {
     
 }
 
 
-public static class MamaSerialSerializer
+public static class #SCRIPTNAME#Serializer
 {
-    public static void WriteMamaSerial(this NetworkWriter writer, MamaSerial value)
+    public static void Write#SCRIPTNAME#(this NetworkWriter writer, #SCRIPTNAME# value)
     {
         //write data
     }
 
-    public static MamaSerial ReadMamaSerial(this NetworkReader reader)
+    public static #SCRIPTNAME# Read#SCRIPTNAME#(this NetworkReader reader)
     {
         //read data
-        return new MamaSerial(); //remove this
+        return new #SCRIPTNAME#(); //remove this
     }
 }
