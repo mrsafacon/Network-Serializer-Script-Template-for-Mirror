@@ -5,9 +5,9 @@ using Mirror;
 
 /*
 	Serialization Guide: https://mirror-networking.gitbook.io/docs/guides/serialization
-    API Reference:  
-            Network Writer: https://mirror-networking.com/docs/api/Mirror.NetworkWriter.html
-            Network Reader: https://mirror-networking.com/docs/api/Mirror.NetworkReader.html
+	API Reference:  
+        	Network Writer: https://mirror-networking.com/docs/api/Mirror.NetworkWriter.html
+        	Network Reader: https://mirror-networking.com/docs/api/Mirror.NetworkReader.html
 */
 
 
